@@ -1,0 +1,37 @@
+{
+  "name": "@banzaimimic/node-utils",
+  "version": "1.0.0",
+  "description": "utilities for node / express / logging & mongo",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "prepublish": "yarn build",
+    "test": "standard && jest --passWithNoTests"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:banzaiMimic/node-utils.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "banzaiMimic",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "jest": "^26.6.3",
+    "standard": "^17.0.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "request-ip": "^2.2.0",
+    "winston": "^3.8.2"
+  }
+}
