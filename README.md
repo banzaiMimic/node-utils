@@ -10,3 +10,8 @@ npm [8.15.0]
 yarn
 yarn build
 ```
+
+## publish package
+```
+npm publish --access public
+```

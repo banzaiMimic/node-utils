@@ -1,6 +1,11 @@
 node_modules
 .npmrc
-dist
+dist/lib
 yarn-error.log
 coverage/
 .vscode
+coverage
+
+# OS metadata
+.DS_Store
+Thumbs.db

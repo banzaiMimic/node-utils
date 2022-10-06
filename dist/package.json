@@ -1,0 +1,24 @@
+{
+  "name": "@banzaimimic/node-utils",
+  "version": "0.0.1",
+  "description": "utilities for node / express / logging & mongo",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:banzaiMimic/node-utils/utils.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "banzaiMimic",
+  "license": "MIT"
+}
