@@ -15,3 +15,6 @@ yarn build
 ```
 npm publish --access public
 ```
+
+### references
+- https://github.com/monsterlessonsacademy/monsterlessonsacademy/tree/218-how-to-make-a-js-library
